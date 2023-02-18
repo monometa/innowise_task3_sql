@@ -19,7 +19,7 @@ from
   actor
   inner join film_actor using (actor_id)
   inner join inventory using (film_id)
-  inner join renatal using (inventory_id)
+  inner join rental using (inventory_id)
 group by
   first_name,
   last_name
